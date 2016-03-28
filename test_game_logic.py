@@ -34,6 +34,5 @@ class GenerateHandTestCase(unittest.TestCase):
 			self.assertLessEqual(comp_throw,2)
 			self.assertGreaterEqual(comp_throw,0)
 
-	def test_play_computer(self)
 if __name__ == "__main__":
 	unittest.main()

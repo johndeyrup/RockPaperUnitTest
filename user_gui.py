@@ -11,7 +11,7 @@ class Frm(Frame):
 
 	def get_result(self, throw):
 		comp_throw, result = play_computer(throw)
-		self.compThrow['text'] = comp_throw.capitalize()
+		self.compThrow['text'] = comp_throw
 		self.resultThrow['text'] = result
 
 	def initUI(self):
